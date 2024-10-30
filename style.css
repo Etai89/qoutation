@@ -1,0 +1,68 @@
+#clientBox {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid purple;
+    border-radius: 8px;
+
+}
+
+#creation {
+    display: flex;
+    justify-content: center;
+}
+
+#jobDetailsDiv,
+#settings {
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    border: 1px solid purple;
+    border-radius: 8px;
+    width: 350px;
+}
+
+.clientInputs,
+.fields,
+select {
+    border-radius: 8px;
+    border: 1px solid purple;
+    padding: 5px;
+    margin: 5px;
+}
+
+.clientButtons {
+    border-radius: 8px;
+    border: 1px solid purple;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+
+#screen {
+    display: flex;
+    justify-content: center;
+}
+
+#test {
+    border: 1px solid purple;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+
+}
+
+.headListTitle {
+    color: cadetblue;
+}
+
+.theList {
+    color: blueviolet;
+}
+#copyHTML{
+    display: flex;
+    justify-content: center;
+}

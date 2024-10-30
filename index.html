@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>כתיבת הצעת מחיר</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="jobdetails.js"></script>
+    <script src="showData.js"></script>
+    <script src="deleteData.js"></script>
+</head>
+
+<body>
+    <div id="clientBox">
+        <input type="text" class="clientInputs" id="clientName" placeholder="שם לקוח">
+        <input type="text" class="clientInputs" id="clientAddress" placeholder="כתובת לקוח">
+        <input type="text" class="clientInputs" id="clientPhone" placeholder="טלפון לקוח">
+        <input type="text" class="clientInputs" id="clientMail" placeholder="מייל לקוח">
+        <button id="saveClientInfo" class="clientButtons">שמור פרטי לקוח</button>
+    </div>
+    <div id="creation">
+        <div id="jobDetailsDiv">
+            <select name="type" id="type">
+                <option value="list">רשימה</option>
+                <option value="numbers">מספרים</option>
+
+            </select>
+            <input type="text" id="headListDetails" class="clientInputs" placeholder="כותרת רשימה">
+
+            <button id="btn3" class="clientButtons">תוסיף פריט</button>
+        </div>
+        <div id="settings">
+            <button id="saveList" class="clientButtons">שמור רשימה</button>
+            <select name="data" id="dataDelete"></select>
+            <button id="deleteBtn" class="clientButtons">מחק רשימה</button>
+        </div>
+    </div>
+    <div id="copyHTML">
+        <button id="printClientData" class="clientButtons">הדפס פרטי לקוח</button>
+        <button id="copyCode" class="clientButtons">העתק קוד</button>
+
+    </div>
+    <div id="screen">
+
+        <div id="test">
+            <p id="clientNameOutput"></p>
+            <p id="clientAddressOutput"></p>
+            <p id="clientPhoneOutput"></p>
+            <p id="clientMailOutput"></p>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
